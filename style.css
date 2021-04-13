@@ -145,43 +145,80 @@ nav {
   justify-content: space-between;
   position: fixed;
   background-color: #fff;
+  z-index: 800;
 }
 
 nav svg {
   width: 15%;
 }
 
-.left-items, .right-items {
-    padding: 1rem;
+.left-items,
+.right-items {
+  padding: 1rem;
 }
 
 .left-items {
-    display: flex;
-    flex-direction: row;
-    width: 15rem;
-    font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  width: 15rem;
+  font-weight: 600;
 }
 
 .left-items svg {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .left-items a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .right-items button {
-    background-color: #567B95;
-    color: #fff;
-    font-size: 0.7rem;
-    padding: 0.5rem 0.5rem;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    font-weight: 600;
+  background-color: #567b95;
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 0.5rem 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
 }
 main {
   padding: 5rem 0;
   min-height: 120vh;
+}
+
+/*Main */
+
+main h1 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  border-bottom: 1px solid #EBEBEB;
+  font-weight: 600;
+}
+
+div.head > *  {
+  padding: 0.8rem 0;
+}
+
+.head {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.head ul li {
+  display: inline-block;
+  margin: 0 0.4rem;
+}
+
+.no-bg {
+  font-size: 1.8rem;
+  background-color: #fff;
+}
+
+.social-rounded {
+  background-color: #eee;
+  border-radius: 100%;
+  padding: 0.3rem;
 }
