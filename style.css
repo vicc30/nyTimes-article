@@ -203,7 +203,8 @@ div.head > * {
 
 .head,
 .author,
-.sign-up {
+.sign-up,
+.article {
   max-width: 45vw;
   margin: auto;
   text-align: left;
@@ -297,4 +298,54 @@ div.head > * {
   background-color: black;
   color: #fff;
   cursor: pointer;
+}
+
+/* Article text */
+
+.article {
+  padding: 1.4rem 0;
+}
+
+.article p {
+  font-size: 1.4rem;
+  padding: 0.8rem 0;
+}
+
+/*Suscribe text inside article */
+
+.suscribe {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  flex-direction: column;
+}
+
+.suscribe p {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 0;
+  margin: auto;
+  display: table;
+}
+
+/*Border for suscription inside article */
+.border-down::after,
+.border-top::after {
+  border-bottom: 1px solid #ccc;
+  content: " ";
+  display: block;
+  width: 4rem;
+  margin: 1rem auto 0 auto;
+}
+
+.border-down {
+  color: #326891;
+}
+
+.border-down::after {
+  margin-top: 1.5rem;
+}
+
+.border-top::after {
+  margin-top: -1.5rem;
 }

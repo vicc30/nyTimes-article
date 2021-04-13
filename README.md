@@ -36,3 +36,4 @@ Special thanks to Odin Project Community!
 ## Resources
 
 * [Odin Project: The Box Model](https://www.theodinproject.com/paths/full-stack-javascript/courses/html-and-css/lessons/the-box-model)
+* [Stack Over Flow - Any way to declare a size/partial border to a box?](https://stackoverflow.com/questions/8835142/any-way-to-declare-a-size-partial-border-to-a-box)
