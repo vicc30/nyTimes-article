@@ -192,9 +192,19 @@ main {
 
 main h1 {
   font-size: 2.5rem;
+  font-family: georgia,'times new roman',times,serif;
   line-height: 3rem;
   border-bottom: 1px solid #ebebeb;
   font-weight: 600;
+}
+
+main h3 {
+  font-size: 1.4rem;
+  font-family: georgia,'times new roman',times,serif;
+  line-height: 2rem ;
+  font-weight: 600;
+  padding: 1rem 0;
+  color: #333;
 }
 
 div.head > * {
@@ -309,6 +319,15 @@ div.head > * {
 .article p {
   font-size: 1.4rem;
   padding: 0.8rem 0;
+  color: #333;
+}
+
+.article a{
+  color: #326891;
+}
+
+.article a:hover {
+  text-decoration: none;
 }
 
 /*Suscribe text inside article */
