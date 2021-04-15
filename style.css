@@ -253,8 +253,9 @@ div.head > * {
   padding: 1rem 0;
 }
 
-.image-large figure figcaption {
-  width: 75%;
+.image-large figure figcaption,
+.video figcaption {
+  width: 85%;
   color: #666;
 }
 
@@ -429,4 +430,31 @@ div.head > * {
 /*higlight*/
 .hl {
   font-weight: 600;
+}
+
+/* Signature */
+
+.signature {
+  width: 70vw;
+  margin: 2rem auto;
+}
+
+.signature::after {
+  border-bottom: 1px solid black;
+  content: " ";
+  display: block;
+  width: 4rem;
+  margin-top: -1.5rem;
+}
+
+/*Video embeded*/
+
+.video iframe {
+  min-height: 340px;
+  width: 100%;
+}
+
+.video {
+  width: 100%;
+  margin: 2rem 0;
 }
